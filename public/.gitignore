@@ -1,0 +1,6 @@
+*/concat.*
+*/min.*
+dist/
+files/
+js/vendor/**
+css/*.css

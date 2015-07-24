@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Getting started\rZF2-AngularJS Skeleton App\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-04 11:59-0500\n"
+"PO-Revision-Date: 2014-04-04 12:05-0500\n"
+"Last-Translator: \n"
+"Language-Team: OSEDEA <info@osedea.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../view/tax/taxes/details.phtml:2
+msgid "Tax Details"
+msgstr "Tax Details"
+
+#: ../view/tax/taxes/details.phtml:6 ../view/tax/taxes/details.phtml:7
+#: ../view/tax/taxes/index.phtml:25
+msgid "Delete"
+msgstr "Delete"
+
+#: ../view/tax/taxes/details.phtml:16
+msgid "Description"
+msgstr "Description"
+
+#: ../view/tax/taxes/details.phtml:23 ../view/tax/taxes/index.phtml:18
+msgid "Code"
+msgstr "Code"
+
+#: ../view/tax/taxes/details.phtml:24 ../view/tax/taxes/index.phtml:19
+msgid "Title"
+msgstr "Title"
+
+#: ../view/tax/taxes/details.phtml:25 ../view/tax/taxes/index.phtml:20
+msgid "Rate"
+msgstr "Rate"
+
+#: ../view/tax/taxes/details.phtml:26
+msgid "Valid From"
+msgstr "Valid From"
+
+#: ../view/tax/taxes/index.phtml:2
+msgid "Taxes"
+msgstr "Taxes"
+
+#: ../view/tax/taxes/index.phtml:7
+msgid "Filter or Create"
+msgstr "Filter or Create"
+
+#: ../view/tax/taxes/index.phtml:11
+msgid "Create"
+msgstr "Create"
+
+#: ../view/tax/taxes/index.phtml:21
+msgid "Valid"
+msgstr "Valid"
+
+#: ../view/tax/taxes/index.phtml:22
+msgid "Actions"
+msgstr "Actions"
+
+#: ../view/tax/taxes/index.phtml:34
+msgid "Create Tax"
+msgstr "Create Tax"
+
+#~ msgid "Data"
+#~ msgstr "Data"
+
+#~ msgid "Buildings"
+#~ msgstr "Buildings"
+
+#~ msgid "Building Details"
+#~ msgstr "Site Details"
+
+#~ msgid "Building Inventory"
+#~ msgstr "Site  Inventory"
+
+#~ msgid "Suppliers"
+#~ msgstr "Suppliers"
+
+#~ msgid "Supplier Details"
+#~ msgstr "Supplier Details"
+
+#~ msgid "Equipments"
+#~ msgstr "Equipments"
+
+#~ msgid "Equipment Details"
+#~ msgstr "Equipment Details"
+
+#~ msgid "Inventories"
+#~ msgstr "Inventories"
+
+#~ msgid "Inventory Details"
+#~ msgstr "Inventory Details"
+
+#~ msgid "Projects"
+#~ msgstr "Projects"
+
+#~ msgid "Project Details"
+#~ msgstr "Project Details"
+
+#~ msgid "Budgets"
+#~ msgstr "Budgets"
+
+#~ msgid "Budget Totals"
+#~ msgstr "Budget Details"
+
+#~ msgid "Documents"
+#~ msgstr "Documents"
+
+#~ msgid "Document Details"
+#~ msgstr "Document Details"
+
+#~ msgid "Reports"
+#~ msgstr "Reports"
+
+#~ msgid "Administration"
+#~ msgstr "Administration"
+
+#~ msgid "Access Administration"
+#~ msgstr "Access Administration"
+
+#~ msgid "Roles"
+#~ msgstr "Roles"
+
+#~ msgid "Excel"
+#~ msgstr "Excel"
+
+#~ msgid "Word"
+#~ msgstr "Word"
+
+#~ msgid "Data Sources"
+#~ msgstr "Data Sources"
+
+#~ msgid "Currencies"
+#~ msgstr "Currencies rates"
+
+#~ msgid "Contacts"
+#~ msgstr "Contacts"
+
+#~ msgid "Annual Amounts"
+#~ msgstr "Annual Amounts"
+
+#~ msgid "Project Types"
+#~ msgstr "Project Types"
+
+#~ msgid "Change Language"
+#~ msgstr "Change Language"
+
+#~ msgid "Close"
+#~ msgstr "Close"
+
+#~ msgid "Save"
+#~ msgstr "Save"
+
+#~ msgid "Welcome to AIDI!"
+#~ msgstr "Welcome to AÏDI!"
+
+#~ msgid "You are currently running AIDI version %s."
+#~ msgstr "You are currently running AÏDI version %s."
+
+#~ msgid "Use the left menu to start managing your projects."
+#~ msgstr "Use the left menu to start managing your projects."
+
+#~ msgid "A 404 error occurred"
+#~ msgstr "A 404 error occurred"
+
+#~ msgid "The requested controller was unable to dispatch the request."
+#~ msgstr "The requested controller was unable to dispatch the request."
+
+#~ msgid ""
+#~ "The requested controller could not be mapped to an existing controller "
+#~ "class."
+#~ msgstr ""
+#~ "The requested controller could not be mapped to an existing controller "
+#~ "class."
+
+#~ msgid "The requested controller was not dispatchable."
+#~ msgstr "The requested controller was not dispatchable."
+
+#~ msgid "The requested URL could not be matched by routing."
+#~ msgstr "The requested URL could not be matched by routing."
+
+#~ msgid "We cannot determine at this time why a 404 was generated."
+#~ msgstr "We cannot determine at this time why a 404 was generated."
+
+#~ msgid "Controller"
+#~ msgstr "Controller"
+
+#~ msgid "resolves to %s"
+#~ msgstr "resolves to %s"
+
+#~ msgid "Additional information"
+#~ msgstr "Additional information"
+
+#~ msgid "File"
+#~ msgstr "File"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Stack trace"
+#~ msgstr "Stack trace"
+
+#~ msgid "Previous exceptions"
+#~ msgstr "Previous exceptions"
+
+#~ msgid "No Exception available"
+#~ msgstr "No Exception available"
+
+#~ msgid "An error occurred"
+#~ msgstr "An error occurred"
+
+#~ msgid "Project Management"
+#~ msgstr "Project Management"
+
+#~ msgid "Logout"
+#~ msgstr "Logout"
+
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "Do you really want to delete '%s'?"
+#~ msgstr "Do you really want to delete '%s'?"
+
+#~ msgid "Approbation Levels"
+#~ msgstr "Approbation Levels"
+
+#~ msgid "Default Values"
+#~ msgstr "Default Values"
+
+#~ msgid "Schedule"
+#~ msgstr "Schedule"
+
+#~ msgid "Budget"
+#~ msgstr "Budget"
+
+#~ msgid "Tasks"
+#~ msgstr "Tasks"
+
+#~ msgid "Add"
+#~ msgstr "Add"
+
+#~ msgid "Import"
+#~ msgstr "Import"
+
+#~ msgid "Department"
+#~ msgstr "Department"
+
+#~ msgid "Supplier"
+#~ msgstr "Supplier"
+
+#~ msgid "Category"
+#~ msgstr "Category"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Quantity"
+#~ msgstr "Quantity"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Create budget item"
+#~ msgstr "Create budget item"
+
+#~ msgid "Add Items from Template"
+#~ msgstr "Add Items from Template"
+
+#~ msgid "See children"
+#~ msgstr "See children"
+
+#~ msgid "Add Child Item"
+#~ msgstr "Add Child Item"
+
+#~ msgid "Structure"
+#~ msgstr "Structure"
+
+#~ msgid "Welcome to %sZend Framework 2%s"
+#~ msgstr "Welcome to %sZend Framework 2%s"
+
+#~ msgid ""
+#~ "Congratulations! You have successfully installed the %sZF2 Skeleton "
+#~ "Application%s. You are currently running Zend Framework version %s. This "
+#~ "skeleton can serve as a simple starting point for you to begin building "
+#~ "your application on ZF2."
+#~ msgstr ""
+#~ "Congratulations! You have successfully installed the %sZF2 Skeleton "
+#~ "Application%s. You are currently running Zend Framework version %s. This "
+#~ "skeleton can serve as a simple starting point for you to begin building "
+#~ "your application on ZF2."
+
+#~ msgid "Fork Zend Framework 2 on GitHub"
+#~ msgstr "Fork Zend Framework 2 on GitHub"
+
+#~ msgid "Follow Development"
+#~ msgstr "Follow Development"
+
+#~ msgid ""
+#~ "Zend Framework 2 is under active development. If you are interested in "
+#~ "following the development of ZF2, there is a special ZF2 portal on the "
+#~ "official Zend Framework website which provides links to the ZF2 %swiki%s, "
+#~ "%sdev blog%s, %sissue tracker%s, and much more. This is a great resource "
+#~ "for staying up to date with the latest developments!"
+#~ msgstr ""
+#~ "Zend Framework 2 is under active development. If you are interested in "
+#~ "following the development of ZF2, there is a special ZF2 portal on the "
+#~ "official Zend Framework website which provides links to the ZF2 %swiki%s, "
+#~ "%sdev blog%s, %sissue tracker%s, and much more. This is a great resource "
+#~ "for staying up to date with the latest developments!"
+
+#~ msgid "ZF2 Development Portal"
+#~ msgstr "ZF2 Development Portal"
+
+#~ msgid "Discover Modules"
+#~ msgstr "Discover Modules"
+
+#~ msgid ""
+#~ "The community is working on developing a community site to serve as a "
+#~ "repository and gallery for ZF2 modules. The project is available %son "
+#~ "GitHub%s. The site is currently live and currently contains a list of "
+#~ "some of the modules already available for ZF2."
+#~ msgstr ""
+#~ "The community is working on developing a community site to serve as a "
+#~ "repository and gallery for ZF2 modules. The project is available %son "
+#~ "GitHub%s. The site is currently live and currently contains a list of "
+#~ "some of the modules already available for ZF2."
+
+#~ msgid "Explore ZF2 Modules"
+#~ msgstr "Explore ZF2 Modules"
+
+#~ msgid "Help &amp; Support"
+#~ msgstr "Help &amp; Support"
+
+#~ msgid ""
+#~ "If you need any help or support while developing with ZF2, you may reach "
+#~ "us via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+#~ "feedback you may have regarding the beta releases. Alternatively, you may "
+#~ "subscribe and post questions to the %smailing lists%s."
+#~ msgstr ""
+#~ "If you need any help or support while developing with ZF2, you may reach "
+#~ "us via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+#~ "feedback you may have regarding the beta releases. Alternatively, you may "
+#~ "subscribe and post questions to the %smailing lists%s."
+
+#~ msgid "Ping us on IRC"
+#~ msgstr "Ping us on IRC"
+
+#~ msgid "Structure Details"
+#~ msgstr "Structure Details"
+
+#~ msgid "Users"
+#~ msgstr "Users"
+
+#~ msgid "Catalogs"
+#~ msgstr "Catalogs"
+
+#~ msgid "Skeleton Application"
+#~ msgstr "Skeleton Application"

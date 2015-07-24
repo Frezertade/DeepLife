@@ -1,0 +1,29 @@
+{
+    "name": "osedea/zf2-angularjs-skeleton",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "require": {
+        "php": ">=5.3.3",
+       
+        "zendframework/zendframework": "2.3.*",
+        "doctrine/common": "2.3.*",
+        "doctrine/doctrine-module": "0.*",
+        "doctrine/doctrine-orm-module": "0.*",
+        "zf-commons/zfc-user": "0.1.*",
+        "zf-commons/zfc-user-doctrine-orm": "0.1.*",
+        "bjyoungblood/bjy-authorize": "1.4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Application": "module/Application/src"
+        }
+    },
+    "require-dev": {
+        "zendframework/zend-developer-tools": "dev-master",
+        "phpunit/phpunit": "~3.7"
+    }
+}

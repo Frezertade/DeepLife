@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Getting started\\rZF2-AngularJS Skeleton App\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-04 12:07-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: OSEDEA <info@osedea.com>\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_p\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../js/controllers\n"
+"X-Poedit-SearchPath-1: ../js/directives\n"
+
+#: ../js/controllers/tax.js:85 ../js/controllers/tax.js:142
+#: ../js/controllers/user.js:158 ../js/controllers/user.js:214
+#: ../js/controllers/user.js:313 ../js/controllers/user.js:370
+msgid "Do you really want to delete '%1'?"
+msgstr "Voulez-vous vraiment supprimer '%1' ?"
+
+#: ../js/directives/ui-editable.js:21
+msgid "Click to edit"
+msgstr "Cliquez pour éditer"
+
+#~ msgid "Do you really want to delete financing source for '%1'?"
+#~ msgstr "Voulez-vous vraiment supprimer la source de financement pour '%1' ?"
+
+#~ msgid "Do you really want to delete this surface?"
+#~ msgstr "Voulez-vous vraiment supprimer cette surface ?"
+
+#~ msgid "Data"
+#~ msgstr "DonnÃ©es"
+
+#~ msgid "Buildings"
+#~ msgstr "Sites/Magasins"
+
+#~ msgid "Building Details"
+#~ msgstr "DÃ©tails du site/magasin"
+
+#~ msgid "Building Inventory"
+#~ msgstr "Inventaire du site/magasin"
+
+#~ msgid "Suppliers"
+#~ msgstr "Fournisseurs"
+
+#~ msgid "Supplier Details"
+#~ msgstr "DÃ©tails du fournisseur"
+
+#~ msgid "Equipments"
+#~ msgstr "Ãquipements"
+
+#~ msgid "Equipment Details"
+#~ msgstr "DÃ©tails de l'Ã©quipement"
+
+#~ msgid "Inventories"
+#~ msgstr "Inventaires"
+
+#~ msgid "Inventory Details"
+#~ msgstr "DÃ©tails de l'inventaire"
+
+#~ msgid "Projects"
+#~ msgstr "Projets"
+
+#~ msgid "Project Details"
+#~ msgstr "DÃ©tails du projet"
+
+#~ msgid "Budgets"
+#~ msgstr "Budgets"
+
+#~ msgid "Budget Details"
+#~ msgstr "DÃ©tails du budget"
+
+#~ msgid "Budget Totals"
+#~ msgstr "DÃ©tails du budget"
+
+#~ msgid "Documents"
+#~ msgstr "Documents"
+
+#~ msgid "Document Details"
+#~ msgstr "DÃ©tails du document"
+
+#~ msgid "Reports"
+#~ msgstr "Rapports"
+
+#~ msgid "Administration"
+#~ msgstr "Administration"
+
+#~ msgid "Access Administration"
+#~ msgstr "GÃ©rer les accÃ¨s"
+
+#~ msgid "Roles"
+#~ msgstr "RÃ´les"
+
+#~ msgid "Excel"
+#~ msgstr "Excel"
+
+#~ msgid "Word"
+#~ msgstr "Word"
+
+#~ msgid "Data Sources"
+#~ msgstr "DonnÃ©es Admin"
+
+#~ msgid "Currencies"
+#~ msgstr "Devises"
+
+#~ msgid "Taxes"
+#~ msgstr "Taxes"
+
+#~ msgid "Contacts"
+#~ msgstr "Contacts"
+
+#~ msgid "Annual Amounts"
+#~ msgstr "Montants annuels"
+
+#~ msgid "Project Types"
+#~ msgstr "Types de projet"
+
+#~ msgid "Change Language"
+#~ msgstr "Changer de langue"
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "Welcome to AIDI!"
+#~ msgstr "Bienvenue sur AÃDI !"
+
+#~ msgid "You are currently running AIDI version %s."
+#~ msgstr "Vous utilisez prÃ©sentement AÃDI version %s."
+
+#~ msgid "Use the left menu to start managing your projects."
+#~ msgstr ""
+#~ "Utilisez le menu sur la gauche pour commencer Ã  gÃ©rer vos projets."
+
+#~ msgid "A 404 error occurred"
+#~ msgstr "Une erreur 404 est survenue"
+
+#~ msgid "The requested controller was unable to dispatch the request."
+#~ msgstr "Le contrÃ´leur demandÃ© n'a pas pu acheminer la requÃªte."
+
+#~ msgid ""
+#~ "The requested controller could not be mapped to an existing controller "
+#~ "class."
+#~ msgstr ""
+#~ "Le contrÃ´leur demandÃ© ne correspond pas Ã  une classe contrÃ´leur "
+#~ "existante."
+
+#~ msgid "The requested controller was not dispatchable."
+#~ msgstr "Le contrÃ´leur demandÃ© ne peut Ãªtre acheminÃ©."
+
+#~ msgid "The requested URL could not be matched by routing."
+#~ msgstr "L'URL demandÃ©e n'a pas pu trouver de route correspondante."
+
+#~ msgid "We cannot determine at this time why a 404 was generated."
+#~ msgstr ""
+#~ "Nous ne pouvons pas dÃ©terminer pour le moment pourquoi une erreur 404 a "
+#~ "Ã©tÃ© gÃ©nÃ©rÃ©e."
+
+#~ msgid "Controller"
+#~ msgstr "ContrÃ´leur"
+
+#~ msgid "resolves to %s"
+#~ msgstr "rÃ©sout en %s"
+
+#~ msgid "Additional information"
+#~ msgstr "Informations complÃ©mentaires"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Stack trace"
+#~ msgstr "Pile d'exÃ©cution"
+
+#~ msgid "Previous exceptions"
+#~ msgstr "Exceptions prÃ©cÃ©dentes"
+
+#~ msgid "No Exception available"
+#~ msgstr "Aucune exception disponible"
+
+#~ msgid "An error occurred"
+#~ msgstr "Une erreur est survenue"
+
+#~ msgid "Project Management"
+#~ msgstr "Gestion de projet"
+
+#~ msgid "Logout"
+#~ msgstr "DÃ©connexion"
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid "Approbation Levels"
+#~ msgstr "Niveaux d'approbation"
+
+#~ msgid "Default Values"
+#~ msgstr "Valeurs par dÃ©faut"
+
+#~ msgid "Schedule"
+#~ msgstr "ÃchÃ©ancier"
+
+#~ msgid "Budget"
+#~ msgstr "Budget"
+
+#~ msgid "Tasks"
+#~ msgstr "TÃ¢ches"
+
+#~ msgid "Filter or Create"
+#~ msgstr "Filtrer ou crÃ©er"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "Import"
+#~ msgstr "Import"
+
+#~ msgid "Department"
+#~ msgstr "DÃ©partement"
+
+#~ msgid "Code"
+#~ msgstr "Code"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Supplier"
+#~ msgstr "Fournisseur"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#~ msgid "Status"
+#~ msgstr "Statut"
+
+#~ msgid "Quantity"
+#~ msgstr "QuantitÃ©"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"
+
+#~ msgid "Create budget item"
+#~ msgstr "CrÃ©er item de budget"
+
+#~ msgid "Add Items from Template"
+#~ msgstr "Ajouter items d'un modÃ¨le"
+
+#~ msgid "Create"
+#~ msgstr "CrÃ©er"
+
+#~ msgid "See children"
+#~ msgstr "Voir enfants"
+
+#~ msgid "Add Child Item"
+#~ msgstr "Ajouter item enfant"
+
+#~ msgid "Structure"
+#~ msgstr "Structure"
+
+#~ msgid "Welcome to %sZend Framework 2%s"
+#~ msgstr "Bienvenue dans %sZend Framework 2%s"
+
+#~ msgid ""
+#~ "Congratulations! You have successfully installed the %sZF2 Skeleton "
+#~ "Application%s. You are currently running Zend Framework version %s. This "
+#~ "skeleton can serve as a simple starting point for you to begin building "
+#~ "your application on ZF2."
+#~ msgstr ""
+#~ "FÃ©licitations ! Vous avez installÃ© %sZF2 Skeleton Application%s avec "
+#~ "succÃ¨s. Vous utilisez actuellement Zend Framework version %s. Cette "
+#~ "structure peut vous servir comme point de dÃ©part simple pour dÃ©marrer "
+#~ "la construction de votre application avec ZF2."
+
+#~ msgid "Fork Zend Framework 2 on GitHub"
+#~ msgstr "Faites un Fork de Zend Framework 2 sur GitHub"
+
+#~ msgid "Follow Development"
+#~ msgstr "Suivre le dÃ©veloppement"
+
+#~ msgid ""
+#~ "Zend Framework 2 is under active development. If you are interested in "
+#~ "following the development of ZF2, there is a special ZF2 portal on the "
+#~ "official Zend Framework website which provides links to the ZF2 %swiki%s, "
+#~ "%sdev blog%s, %sissue tracker%s, and much more. This is a great resource "
+#~ "for staying up to date with the latest developments!"
+#~ msgstr ""
+#~ "Zend Framework 2 est en cours de dÃ©veloppement. Si vous Ãªtes "
+#~ "intÃ©ressÃ© pour suivre l'Ã©volution de ZF2, il existe un portail dÃ©diÃ© "
+#~ "Ã  ZF2 sur le site officiel Zend Framework qui propose des liens vers le "
+#~ "%swiki%s ZF2, le %sblogue de dev%s, le %ssuivi des problÃ¨mes%s, et bien "
+#~ "plus encore. Il s'agit d'une excellente ressource pour rester Ã  jour sur "
+#~ "les derniÃ¨res Ã©volutions !"
+
+#~ msgid "ZF2 Development Portal"
+#~ msgstr "Portail sur le dÃ©veloppement de ZF2"
+
+#~ msgid "Discover Modules"
+#~ msgstr "DÃ©couvrez les modules"
+
+#~ msgid ""
+#~ "The community is working on developing a community site to serve as a "
+#~ "repository and gallery for ZF2 modules. The project is available %son "
+#~ "GitHub%s. The site is currently live and currently contains a list of "
+#~ "some of the modules already available for ZF2."
+#~ msgstr ""
+#~ "La communautÃ© travaille sur le dÃ©veloppement d'un site communautaire "
+#~ "avec l'objectif de servir de dÃ©pÃ´t et de galerie  pour les modules ZF2. "
+#~ "Le projet est disponible %ssur GitHub%s. Le site est dÃ©jÃ  en ligne, et "
+#~ "contient une liste non exhaustive des modules dÃ©jÃ  disponibles pour ZF2."
+
+#~ msgid "Explore ZF2 Modules"
+#~ msgstr "Explorer les modules ZF2"
+
+#~ msgid "Help &amp; Support"
+#~ msgstr "Aide &amp; support"
+
+#~ msgid ""
+#~ "If you need any help or support while developing with ZF2, you may reach "
+#~ "us via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+#~ "feedback you may have regarding the beta releases. Alternatively, you may "
+#~ "subscribe and post questions to the %smailing lists%s."
+#~ msgstr ""
+#~ "Si vous avez besoin d'aide ou de soutient en dÃ©veloppant avec ZF2, vous "
+#~ "pouvez nous joindre sur IRC : %s#zftalk sur Freenode%s. Nous aimerions "
+#~ "connaÃ®tre vos questions ou les commentaires que vous pourriez avoir au "
+#~ "sujet des versions beta. Sinon, vous pouvez vous abonner, et poser des "
+#~ "questions sur la %sliste de diffusion%s."
+
+#~ msgid "Ping us on IRC"
+#~ msgstr "Rejoignez-nous sur IRC"
+
+#~ msgid "Structure Details"
+#~ msgstr "DÃ©tails de la structure"
+
+#~ msgid "Users"
+#~ msgstr "Utilisateurs"
+
+#~ msgid "Catalogs"
+#~ msgstr "Catalogues"
+
+#~ msgid "Skeleton Application"
+#~ msgstr "Skeleton Application"
+
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgid "All rights reserved."
+#~ msgstr "Tous droits rÃ©servÃ©s."

@@ -1,0 +1,9 @@
+@media print {
+  .print-only {
+    display: inherit !important;
+  }
+
+  .noPrint {
+    display:none !important;
+  }
+}

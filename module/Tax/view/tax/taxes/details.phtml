@@ -1,0 +1,36 @@
+<div ng-controller="TaxDetailsCtrl">
+  <h1><?php echo $this->translate('Tax Details'); ?></h1>
+
+  <h3>
+    {{currentTax.code}}
+    <button type="button" title="<?php echo $this->translate('Delete'); ?>"class="btn btn-danger delete pull-right" ng-click="deleteTax()">
+      <span class="glyphicon glyphicon-trash"></span> <?php echo $this->translate('Delete'); ?>
+    </button>
+  </h3>
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse"  data-target="#description">
+        <h4 class="panel-title">
+          <a href="">
+            <?php echo $this->translate('Description'); ?>
+          </a>
+        </h4>
+      </div>
+      <div id="description" class="panel-collapse collapse in">
+        <div class="panel-body">
+          <table class="details">
+            <tr><td><?php echo $this->translate('Code'); ?></td><td><div ui-editable ng-model="currentTax.code" ng-change="update" ng-transclude>{{currentTax.code}}</div></td></tr>
+            <tr><td><?php echo $this->translate('Title'); ?></td><td><div ui-editable ng-model="currentTax.title" ng-change="update" ng-transclude>{{currentTax.title}}</div></td></tr>
+            <tr><td><?php echo $this->translate('Rate'); ?></td><td><div ui-editable ng-model="currentTax.rate" ng-change="update" ng-transclude>{{currentTax.rate}}</div></td></tr>
+            <tr><td><?php echo $this->translate('Valid From'); ?></td><td><div ui-editable ng-model="currentTax.valid" ng-transclude>{{currentTax.valid}}</div></td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php
+$this->inlineScript()->appendFile($this->basePath() . '/js/vendor/jquery.jeditable.mini.js');
+?>

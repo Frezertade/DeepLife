@@ -1,0 +1,278 @@
+<!-- Wrapper-->
+<div id="wrapper">
+
+<!-- Navigation -->
+<div ng-include="'views/common/navigation.html'"></div>
+
+<!-- Page wraper -->
+<!-- ng-class with current state name give you the ability to extended customization your view -->
+<div id="page-wrapper" class="gray-bg {{$state.current.name}}">
+
+<!-- Page wrapper -->
+<div ng-include="'views/common/topnavbar.html'"></div>
+
+<div class="row wrapper border-bottom white-bg page-heading">
+</div>
+
+
+
+
+
+<div class="row wrapper border-bottom white-bg page-heading">
+
+
+
+
+
+<div class="wrapper wrapper-content animated fadeInRight" ng-controller="modalDemoCtrl">
+<div class="row">
+<div class="col-lg-12">
+
+
+
+
+
+
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <!--<div class="col-lg-10">-->
+    <!--<h2>Data Tables</h2>-->
+    <!--<ol class="breadcrumb">-->
+    <!--<li>-->
+    <!--<a href="index.html">Home</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<a>Tables</a>-->
+    <!--</li>-->
+    <!--<li class="active">-->
+    <!--<strong>Data Tables</strong>-->
+    <!--</li>-->
+    <!--</ol>-->
+    <!--</div>-->
+    <!--<div class="col-lg-2">-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="wrapper wrapper-content animated fadeInRight">-->
+    <!--<div class="row">F-->
+    <!--<div class="col-lg-12">-->
+    <!--<div class="ibox float-e-margins">-->
+
+    <!--</div>-->
+
+    <!--<div>-->
+    <!--<div>-->
+    <div class="row">
+        <div class="col-lg-7">
+            <div class="ibox float-e-margins">
+                <div class="col-lg-8"></div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-sm-9 m-b-xs">
+
+                            <div class="btn-group" dropdown >
+                                <button type="button" class="btn btn-primary btn-sm dropdown-toggle" dropdown-toggle>
+                                    Action <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="">Edit</a></li>
+                                    <li><a href="">Remove</a></li>
+                                    <li><a href="">Assign</a></li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <td><button class="btn btn-primary" ng-click="open3()">+ADD</button></td>
+                        <div class="col-sm-7">
+                            <div class="input-group"><input type="text" placeholder="Search" class="input-sm form-control"> <span class="input-group-btn">
+                                        <button type="button" class="btn btn-sm btn-primary"> Go!</button> </span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <td>#</td>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Date</th>
+                        <th>Country</th>
+                        <th>option</th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><input icheck type="checkbox" ng-model="main.checkOne"></td>
+                        <td>1</td>
+                        <td>
+                            Cheris
+                        </td>
+                        <td>
+                            Fraud
+                        </td>
+                        <td>Jul 14, 2013</td>
+                        <td>Malawi</td>
+                        <td><button class="btn btn-primary" ng-click="open1()">Send</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><input icheck type="checkbox" ng-model="main.unCheck1"></td>
+                        <td>2</td>
+                        <td>Peter</td>
+                        <td>
+                            Haile
+                        </td>
+                        <td>jun 9, 2015</td>
+                        <td>Tanzania</td>
+                        <td><button class="btn btn-primary" ng-click="open1()">Send</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><input icheck type="checkbox" ng-model="main.unCheck2"></td>
+                        <td>3</td>
+                        <td> Mswang</td>
+                        <td>
+                            first man
+                        </td>
+                        <td>aug 5,2015</td>
+                        <td>Ethiopia</td>
+                        <td><button class="btn btn-primary" ng-click="open1()">Send</button></td>
+                    </tr>
+                    <tr>
+                        <td><input icheck type="checkbox" ng-model="main.unCheck3"></td>
+                        <td>4</td>
+                        <td>Tamru</td>
+                        <td>
+                            Wondemu
+                        </td>
+                        <td>jan 12,2015</td>
+                        <td>Ethiopia</td>
+                        <td><button class="btn btn-primary" ng-click="open1()">Send</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><input icheck type="checkbox" ng-model="main.unCheck3"></td>
+                        <td>4</td>
+                        <td>Herod</td>
+                        <td>
+                            Allen
+                        </td>
+                        <td>jan 12,2015</td>
+                        <td>Kenya</td>
+                        <td><button class="btn btn-primary" ng-click="open1()">Send</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><input icheck type="checkbox" ng-model="main.unCheck3"></td>
+                        <td>4</td>
+                        <td>Jeff</td>
+                        <td>
+                            Paul
+                        </td>
+                        <td>jan 12,2015</td>
+                        <td>South Africa</td>
+                        <td><button class="btn btn-primary" ng-click="open1()">Send</button></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <pagination total-items="main.bigTotalItems" ng-model="main.bigCurrentPage" max-size="main.maxSize" class="pagination-sm" boundary-links="true"></pagination>
+                <pre>Page: {{main.bigCurrentPage}}</pre>
+            </div>
+        </div>
+        <div class="col-lg-4" >
+            <!--<div class="col-md-12">-->
+            <div class="ibox-content text-center">
+                <h1>Additional information</h1>
+            </div>
+
+
+
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Profile Detail</h5>
+                </div>
+                <div>
+                    <div class="">
+                        <img alt="image" width="250" height="150" class="img-responsive" src="img/profile_big.jpg">
+                    </div>
+                    <div class="ibox-content profile-content">
+                        <h4><strong>Selected Person Name</strong></h4>
+
+                        <p><i class="fa fa-map-marker"></i> Place where he/she lives</p>
+                        <h5>
+                            About
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitat.
+                        </p>
+
+
+                        <div class="user-button">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary btn-sm btn-block"></i> Update Info</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-default btn-sm btn-block"></i> Assign</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+
+
+</div>
+
+</div>
+
+<!-- Footer -->
+
+
+</div>
+<!-- End page wrapper-->
+
+</div>
+<!-
+</div>
+</div>- End wrapper-->

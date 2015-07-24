@@ -1,0 +1,119 @@
+<?php echo $this->doctype(); ?>
+
+<!--[if IE 9]> <html class="no-js ie ie9 lte9" lang="en" ng-app="skeleton"> <![endif]-->
+<html lang="<?php echo \Locale::getDefault(); ?>" ng-app="skeleton">
+    <head>
+        <meta charset="utf-8">
+        <?php echo $this->headTitle()->prepend('ZF2-AngularJS Skeleton App')->setSeparator(' - ')->setAutoEscape(false) ?>
+
+        <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0') ?>
+
+        <!-- Le styles -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//cdn.jsdelivr.net/angular.ngtable/0.3.1/ng-table.css" rel="stylesheet">
+
+        <!-- build:css(public) /dist/css/min.css -->
+        <link rel="stylesheet" href="/css/application.css" media="screen"/>
+        <!-- endbuild -->
+
+        <link href="/dist/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+        <!-- Language file for javascript translations -->
+        <link href="/i18n/<?php echo \Locale::getDefault(); ?>.po" rel="gettext" type="application/x-po">
+
+        <!-- Scripts -->
+        <?php echo $this->headScript(); ?>
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <div id="sidebar-wrapper" class="hidden-print">
+                <a class="sidebar-brand" href="<?php echo $this->url('home') ?>"><img src="<?php echo $this->basePath('/dist/img/logo/logo.png') ?>" alt="ZF2"/></a>
+                <div class="sidebar-nav-container">
+                <?php echo $this->navigation('navigation')->menu()->setUlClass('sidebar-nav'); ?>
+                </div>
+            </div>
+
+            <div id="page-content-wrapper">
+                <div class="page-content inset">
+                    <div class="row">
+                        <div class="container col-md-12">
+                            <div class="top-menu hidden-print">
+                                <a data-toggle="dropdown" href="#"><i class="fa fa-gear settings"></i></a>
+                                <?php echo $this->navigation('secondary_navigation')->menu()->setUlClass('dropdown-menu actions'); ?>
+                                <p class="user">
+                                <?php
+                                $displayName = $this->zfcUserDisplayName();
+                                if($displayName):
+                                    echo $displayName;
+                                ?>
+                                &nbsp;
+                                <a href="<?php echo $this->url('zfcuser/logout'); ?>"><?php echo $this->translate('Logout'); ?></a>
+                                <?php else: ?>
+                                <a href="<?php echo $this->url('zfcuser/login'); ?>"><?php echo $this->translate('Login'); ?></a>
+                                <?php endif; ?>
+                                </p>
+                            </div>
+
+                            <div class="hide" app-messages></div>
+
+                            <div id="container" class="clearfix ">
+                                <div class="hidden-print">
+                                    <?php
+                                    echo $this->navigation('navigation')
+                                        ->breadcrumbs()
+                                        ->setMinDepth(0)
+                                        ->setPartial(array('partial/breadcrumb.phtml', 'Application'));
+                                    echo $this->navigation('secondary_navigation')
+                                        ->breadcrumbs()
+                                        ->setMinDepth(0)
+                                        ->setPartial(array('partial/breadcrumb.phtml', 'Application'));
+                                    ?>
+                                </div>
+                                <?php echo $this->content; ?>
+                                <footer></footer>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/angularjs/1.2.20/angular-resource.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/angular.ngtable/0.3.3/ng-table.js"></script>
+
+        <!-- build:js(public) /dist/js/min.js -->
+        <script src="/dist/js/vendor/Gettext.js"></script>
+        <script src="/dist/js/skeleton.js"></script>
+        <script src="/dist/js/app.js"></script>
+        <script src="/dist/js/controllers.js"></script>
+        <script src="/dist/js/controllers/tax.js"></script>
+        <script src="/dist/js/controllers/user.js"></script>
+        <script src="/dist/js/controllers/role.js"></script>
+        <script src="/dist/js/directives.js"></script>
+        <script src="/dist/js/directives/alerts.js"></script>
+        <script src="/dist/js/directives/ui-editable-check.js"></script>
+        <script src="/dist/js/directives/ui-editable.js"></script>
+        <script src="/dist/js/filters.js"></script>
+        <script src="/dist/js/services.js"></script>
+        <script src="/dist/js/services/tax.js"></script>
+        <script src="/dist/js/services/user.js"></script>
+        <script src="/dist/js/services/role.js"></script>
+        <script src="/dist/js/services/utils.js"></script>
+        <!-- endbuild -->
+
+        <?php echo $this->inlineScript(); ?>
+
+    </body>
+</html>

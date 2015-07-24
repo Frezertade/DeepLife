@@ -1,0 +1,34 @@
+<div ng-controller="RoleCtrl">
+<h1><?php echo $this->translate('Roles'); ?></h1>
+
+<div id="roles-actions" class="col-xs-6 col-lg-6 pull-right table-top-action-padding hidden-print">
+    <div class="input-group">
+      <div class="input-filter-container">
+        <input type="text" class="form-control" ng-model="query" placeholder="<?php echo $this->translate('Filter or Create'); ?>" ng-disabled="!enableFilter">
+        <p class="items-count">{{tableParams.total()}}</p>
+      </div>
+      <span class="input-group-btn">
+      <button id="create-button" class="btn btn-success" type="button" ng-click="openModal('#role-create', 'roleId', filterOptions.query)"><?php echo $this->translate('Create'); ?></button>
+      </span>
+    </div>
+</div>
+
+<table ng-table="tableParams" class="table table-hover table-condensed table-data">
+  <tr ng-repeat="role in $data" ng-dblclick="goto('/roles/details/' + role.id)">
+      <td data-title="'<?php echo $this->translate('Name'); ?>'" sortable="'roleId'">{{role.roleId}}</td>
+      <td data-title="'<?php echo $this->translate('Parent'); ?>'" sortable="'parent.roleId'">{{role.parent.roleId}}</td>
+      <td data-title="'<?php echo $this->translate('Actions'); ?>'">
+          <div class="container">
+            <div class="btn-group btn-group-xs">
+                <button type="button" title="<?php echo $this->translate('Delete'); ?>" class="btn btn-danger delete" ng-click="deleteRole(role)">
+                  <span class="glyphicon glyphicon-trash"></span>
+                </button>
+              </div>
+          </div>
+      </td>
+  </tr>
+</table>
+
+<?php echo $this->partial('partial/modalcreate.phtml', array('id' => 'role-create', 'title' => $this->translate('Create Role'), 'form' => $this->form)); ?>
+
+</div>

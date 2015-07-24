@@ -1,0 +1,126 @@
+table {
+  .table-data {
+    table-layout: fixed;
+  }
+
+  .table-data th, .table-data td {
+    overflow: hidden;
+  }
+
+  th {
+    background-color: #236AA6;
+
+    text-align: center;
+    color: white;
+    font-weight: 300;
+
+    border-right: 1px solid white;
+    border-bottom: none;
+    box-sizing: border-box;
+  }
+
+  th a {
+      color: white;
+  }
+
+  th.active-col a {
+    color: #323232;
+    font-weight: bold;
+  }
+
+  td.controls .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.table {
+  margin-bottom: 0px;
+
+  thead > tr > th, tbody > tr > th,
+  tfoot > tr > th, thead > tr > td,
+  tbody > tr > td, tfoot > tr > td {
+      border-top: none;
+      border-bottom: none;
+  }
+
+  tbody > tr {
+      background-color: #F0F1F1;
+  }
+
+  tbody > tr:nth-child(even) {
+      background-color: #E2E4E3;
+  }
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #47A44E;
+}
+
+.table-hover tbody tr:hover td a, .table tbody tr td a {
+  color: black;
+}
+
+.table-data .controls {
+  width: 115px;
+}
+
+.table-data .controls.large {
+  width: 135px;
+}
+
+.table-condensed tbody > tr > td.controls {
+    padding: 4px;
+}
+
+.ng-table th.sortable.sort-asc,
+.ng-table th.sortable.sort-desc {
+  background-color: #236AA5;
+  font-weight: 400;
+  text-shadow: 0 0 0 white;
+}
+
+td[data-title="'Actions'"] .container {
+    text-align: center;
+}
+
+.user-actions .btn.btn-primary {
+    background-color: #236AA6;
+}
+
+.user-actions .btn.btn-primary:hover {
+    background-color: #05457A;
+}
+
+.structure-item-list {
+  #description {
+    width: 450px;
+  }
+
+  #order {
+    width: 150px;
+  }
+
+  .controls {
+    width: 150px;
+  }
+}
+
+.budget .controls {
+  width: 150px;
+}
+
+.table-top-action-padding {
+  padding-bottom: 10px;
+  padding-right: 0;
+}
+
+.panel-body table.details tr td:first-child {
+  font-weight: bold;
+  padding-right: 2em;
+  width: 25%;
+}
+
+.panel-body table{
+  width: 100%;
+}

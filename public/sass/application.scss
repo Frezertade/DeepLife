@@ -1,0 +1,120 @@
+@import 'base';
+
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+nav ul {
+  width: 100%;
+}
+
+body a:link:after, a:visited:after {
+  content:"";
+  }
+
+label.required:after {
+  content: '*';
+  color: red;
+}
+
+label.control-label.long-label {
+  width: 100%;
+  float: left;
+}
+
+.alert-center-text {
+  text-align: center;
+}
+
+.editable {
+  width: 100%;
+  height: 20px;
+}
+
+form.inplace-edit input,
+form.inplace-edit textarea {
+  width: 100%;
+  height: 100%;
+}
+
+form.inplace-edit textarea {
+  margin-bottom: 5px;
+}
+
+form.inplace-edit select {
+  margin-right: 5px;
+}
+
+.vertical-space-medium {
+  margin-top: 20px;
+}
+
+/* Override of Bootstrap */
+/* Required since we make the entire heading clickable */
+.panel-heading {
+  cursor: pointer;
+}
+
+/* Alert not moving the elements on the screen when fading in our out */
+.alert {
+  position: fixed;
+  top: 50px;
+  left: 220px;
+  right: 15px;
+  padding: 5px;
+}
+
+/* This alert is for the modal so that the error message is displayed under the field throwing the error */
+.modal-content .alert {
+  position: static;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-top: -15px;
+  margin-bottom: 35px;
+}
+
+.borderless {
+  border: none;
+}
+
+/* So that buttons align left properly when they are within a button group and the space is to small so they appear on multiple lines. */
+.btn-group .btn+.btn {
+  margin-left: 0;
+}
+
+/* So that input we use as filters are full width in IE9 */
+.ie9 .input-group .input-filter-container .form-control {
+  display: block !important;
+}
+
+.input-group .input-filter-container {
+  position: relative;
+}
+
+.items-count {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  color: #99999C;
+  padding: 6px 12px;
+  text-align: right;
+}
+
+input, .btn, .panel-heading, .panel.panel-default {
+  border-radius: 0 !important;
+}

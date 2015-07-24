@@ -1,0 +1,34 @@
+<div ng-controller="RoleDetailsCtrl">
+  <h1><?php echo $this->translate('Role Details'); ?></h1>
+
+  <h3>
+    {{currentRole.roleId}}
+    <button type="button" title="<?php echo $this->translate('Delete'); ?>"class="btn btn-danger delete pull-right">
+      <span class="glyphicon glyphicon-trash"></span> <?php echo $this->translate('Delete'); ?>
+    </button>
+  </h3>
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse"  data-target="#description">
+        <h4 class="panel-title">
+          <a href="">
+            <?php echo $this->translate('Description'); ?>
+          </a>
+        </h4>
+      </div>
+      <div id="description" class="panel-collapse collapse in">
+        <div class="panel-body">
+          <table class="details">
+            <tr><td><?php echo $this->translate('Name'); ?></td><td><div ui-editable ng-model="currentRole.roleId" ng-change="update" ng-transclude>{{currentRole.roleId}}</div></td></tr>
+            <tr><td><?php echo $this->translate('Parent'); ?></td><td><div ui-editable ng-model="currentRole.parent" type="select" data="{{availableRoles}}" ng-change="update" ng-transclude>{{currentRole.parent.roleId}}</div></td></tr>
+            </table>
+        </div>
+      </div>
+    </div>
+</div>
+
+<?php
+$this->inlineScript()
+   ->appendFile($this->basePath() . '/js/vendor/jquery.jeditable.mini.js');
+?>

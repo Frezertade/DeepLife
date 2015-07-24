@@ -1,0 +1,36 @@
+<div ng-controller="TaxCtrl">
+<h1><?php echo $this->translate('Taxes'); ?></h1>
+
+<div id="tax-actions" class="col-xs-6 col-lg-6 pull-right table-top-action-padding hidden-print">
+    <div class="input-group">
+      <div class="input-filter-container">
+        <input type="text" class="form-control" ng-model="query" placeholder="<?php echo $this->translate('Filter or Create'); ?>" ng-disabled="!enableFilter">
+        <p class="items-count">{{tableParams.total()}}</p>
+      </div>
+      <span class="input-group-btn">
+        <button id="create-button" class="btn btn-success" type="button" ng-click="openModal('#tax-create', 'code', query)"><?php echo $this->translate('Create'); ?></button>
+      </span>
+    </div>
+</div>
+
+<table ng-table="tableParams" class="table table-hover table-condensed table-data">
+    <tr ng-repeat="tax in $data" ng-dblclick="goto('/taxes/details/' + tax.id)">
+        <td data-title="'<?php echo $this->translate('Code'); ?>'" sortable="'code'">{{tax.code}}</td>
+        <td data-title="'<?php echo $this->translate('Title'); ?>'" sortable="'title'">{{tax.title}}</td>
+        <td data-title="'<?php echo $this->translate('Rate'); ?>'" sortable="'rate'">{{tax.rate}}</td>
+        <td data-title="'<?php echo $this->translate('Valid'); ?>'" sortable="'valid'">{{tax.valid}}</td>
+        <td data-title="'<?php echo $this->translate('Actions'); ?>'">
+            <div class="container">
+              <div class="btn-group btn-group-xs">
+                  <button type="button" title="<?php echo $this->translate('Delete'); ?>" class="btn btn-danger delete" ng-click="deleteTax(tax)">
+                    <span class="glyphicon glyphicon-trash"></span>
+                  </button>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<?php echo $this->partial('partial/modalcreate.phtml', array('id' => 'tax-create', 'title' => $this->translate('Create Tax'), 'form' => $this->form)); ?>
+
+</div>
